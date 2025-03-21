@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 50a6516f139814147b6ca8fdea3313ea
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292417
+  packageName: 2D Platformer - Lovely Snowy
+  packageVersion: 1.0
+  assetPath: Assets/HobiSoLoved/Scenes/UniversalRenderPipelineGlobalSettings.asset
+  uploadId: 684924

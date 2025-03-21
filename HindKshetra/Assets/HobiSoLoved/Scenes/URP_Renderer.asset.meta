@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ddf814f2744b6ac4fac756f4faa07883
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292417
+  packageName: 2D Platformer - Lovely Snowy
+  packageVersion: 1.0
+  assetPath: Assets/HobiSoLoved/Scenes/URP_Renderer.asset
+  uploadId: 684924
