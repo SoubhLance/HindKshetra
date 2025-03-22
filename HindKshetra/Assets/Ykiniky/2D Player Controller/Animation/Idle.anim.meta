@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33edb3674787ef140abf01f2929e5e78
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287744
+  packageName: 2D Player Controller
+  packageVersion: 1.0
+  assetPath: Assets/Ykiniky/2D Player Controller/Animation/Idle.anim
+  uploadId: 701622

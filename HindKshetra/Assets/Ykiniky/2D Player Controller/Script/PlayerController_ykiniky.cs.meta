@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b8fe4785ad18cdf43a3ad26b4851b099
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287744
+  packageName: 2D Player Controller
+  packageVersion: 1.0
+  assetPath: Assets/Ykiniky/2D Player Controller/Script/PlayerController_ykiniky.cs
+  uploadId: 701622

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 415ec8bdb68eca34fa6d3fdb098ddd8e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287744
+  packageName: 2D Player Controller
+  packageVersion: 1.0
+  assetPath: Assets/Ykiniky/2D Player Controller/Prefab/Player.prefab
+  uploadId: 701622

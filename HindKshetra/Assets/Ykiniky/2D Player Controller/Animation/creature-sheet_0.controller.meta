@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f95c20a86da698647b7ea6b20bf55cb1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287744
+  packageName: 2D Player Controller
+  packageVersion: 1.0
+  assetPath: Assets/Ykiniky/2D Player Controller/Animation/creature-sheet_0.controller
+  uploadId: 701622

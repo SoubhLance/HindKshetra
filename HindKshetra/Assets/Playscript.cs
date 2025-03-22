@@ -1,47 +1,143 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Playscript : MonoBehaviour
+namespace YkinikY
 {
-    public float walkSpeed = 60f; 
-    public float runSpeed = 60f;
-    public float jumpForce = 10f;
-    private Rigidbody rb;
-    private bool isGrounded;
-
-    void Start()
+    public class Playscript: MonoBehaviour
     {
-        rb = GetComponent<Rigidbody>();
-        rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionZ; //yea! techno 
-    }
+        [Header("(c) Ykiniky")]
+        [Header("Movement")]
+        public bool canMove = true;
+        public bool canJump = true;
+        public float velocity = 5; // Extreme speed
+        [Header("Camera")]
+        public PlayerCameraFollow_ykiniky playerCameraFollow;
+        public Vector2 lastCheckpoint;
 
-    void Update()
-    {
-        Move();
-        Jump();
-    }
-
-    void Move()
-    {
-        float moveX = Input.GetAxis("Horizontal"); 
-        float speed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
-        Vector3 movement = new Vector3(moveX * speed * Time.deltaTime, 0, 0);
-        transform.Translate(movement, Space.Self);
-    }
-
-    void Jump()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        void Start()
         {
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, 5); 
-            isGrounded = false;
+
         }
-    }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
+        void Update()
         {
-            isGrounded = true;
+            if (canMove) MovimentUpdate();
+            if (playerCameraFollow != null)
+            {
+                if (transform.position.x > 0)
+                {
+                    playerCameraFollow.FollowX();
+                }
+                else
+                {
+                    playerCameraFollow.DontFollowX();
+                }
+                if (transform.position.y > 0)
+                {
+                    playerCameraFollow.FollowY();
+                }
+                else
+                {
+                    playerCameraFollow.DontFollowY();
+                }
+            }
+        }
+        public void GameOver()
+        {
+            canMove = false;
+        }
+        void MovimentUpdate()
+        {
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+            {
+                transform.position += 25 * Time.deltaTime * velocity * Vector3.left; // Super fast
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+            {
+                transform.position += 25 * Time.deltaTime * velocity * Vector3.right; // Super fast
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            if ((Input.GetKey(KeyCode.Space) & canJump) || (Input.GetKey(KeyCode.W) & canJump))
+            {
+                canJump = false;
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 20); // Super high jump
+            }
+            if (Input.GetButton("Jump") && canJump)
+            {
+                canJump = false;
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 10); // Super high jump
+            }
+            transform.position += 15 * Time.deltaTime * velocity * Vector3.right * Input.GetAxis("Horizontal");
+            if (Input.GetAxis("Horizontal") == 1)
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            if (Input.GetAxis("Horizontal") == -1)
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+        }
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            canJump = true;
+            if (collision.gameObject.name == "PlayerSlower")
+            {
+                BecomeSlow();
+            }
+        }
+        private void OnCollisionExit2D(Collision2D collision)
+        {
+            if (collision.gameObject.name == "PlayerSlower")
+            {
+                BecomeNormal();
+            }
+        }
+        private void OnTriggerStay2D(Collider2D collision)
+        {
+            if (collision.name == "Elevator")
+            {
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 30); // Extreme elevator boost
+            }
+            if (collision.name == "Down_elevator")
+            {
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, -20); // Extreme downward boost
+            }
+        }
+        private void OnCollisionStay2D(Collision2D collision)
+        {
+            if (collision.gameObject.name == "Nastro trasportatore s")
+            {
+                GetComponent<Rigidbody2D>().AddForce(new Vector3(-200, GetComponent<Rigidbody2D>().linearVelocity.y)); // Extreme force
+            }
+            if (collision.gameObject.name == "Nastro trasportatore d")
+            {
+                GetComponent<Rigidbody2D>().AddForce(new Vector3(200, GetComponent<Rigidbody2D>().linearVelocity.y)); // Extreme force
+            }
+        }
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.gameObject.name == "Checkpoint")
+            {
+                lastCheckpoint = transform.position;
+            }
+        }
+        public void TeleportPlayerX(float playerX)
+        {
+            transform.position = new Vector2(playerX, transform.position.y);
+        }
+        public void TeleportPlayerY(float playerY)
+        {
+            transform.position = new Vector2(transform.position.x, playerY);
+        }
+        public void BecomeSlow()
+        {
+            velocity = 2f; // Slow but still fast
+        }
+        public void BecomeNormal()
+        {
+            velocity = 5f; // Super fast normal speed
         }
     }
 }

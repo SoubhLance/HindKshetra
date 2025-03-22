@@ -6,10 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu.unity
-    guid: 270d82e9d03629640b6a857e3b0f9c27
+    path: Assets/2D Bird Game Mobile/Scenes/Menu.unity
+    guid: 5ee6491ff6503e345b2fda4308404d13
   - enabled: 1
-    path: Assets/Level1.unity
-    guid: 03f0cd8a8af330343b8d1c0aad065c4b
+    path: Assets/2D Bird Game Mobile/Scenes/Game.unity
+    guid: ef9bd5f650229d147ac57a1ef7f2a3c1
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0

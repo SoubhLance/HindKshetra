@@ -1,0 +1,6 @@
+How to use:
+insert the prefab into the scene.
+You can add the "PlayerController_ykiniky" script to a gameObject to turn it into a player.
+It is also possible to play with a connected Xbox controller.
+
+Happy developing!

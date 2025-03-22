@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6f5122a3411ac0f459ff0725395b94f1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287744
+  packageName: 2D Player Controller
+  packageVersion: 1.0
+  assetPath: Assets/Ykiniky/2D Player Controller/Script/PlayerCameraFollow_ykiniky.cs
+  uploadId: 701622
