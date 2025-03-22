@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cae654a6ff73704498c82370a4a2168b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245475
+  packageName: 2D Platformer Controller (with animated character)
+  packageVersion: 1.0.0
+  assetPath: Assets/SupanthaPaul/2D Platformer Controller/Art/Animations/Player/Dash.anim
+  uploadId: 558839

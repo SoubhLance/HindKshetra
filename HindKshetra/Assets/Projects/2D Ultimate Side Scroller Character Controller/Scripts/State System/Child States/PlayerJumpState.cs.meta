@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: fa285e63c77cb0043b581f00d9021f1b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State
+    System/Child States/PlayerJumpState.cs
+  uploadId: 598327

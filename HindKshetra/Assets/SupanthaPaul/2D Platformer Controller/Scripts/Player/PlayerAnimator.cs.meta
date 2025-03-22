@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c342bd39c8203da4bbd4336f799dc8d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245475
+  packageName: 2D Platformer Controller (with animated character)
+  packageVersion: 1.0.0
+  assetPath: Assets/SupanthaPaul/2D Platformer Controller/Scripts/Player/PlayerAnimator.cs
+  uploadId: 558839

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 074e76f97066d9f40b39df9a093921f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/State
+    System/Child States/PlayerDashState.cs
+  uploadId: 598327

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: da8cb3c2cd71ab24cac5aca842992d26
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245475
+  packageName: 2D Platformer Controller (with animated character)
+  packageVersion: 1.0.0
+  assetPath: Assets/SupanthaPaul/2D Platformer Controller/Scripts/Camera/CameraFollow.cs
+  uploadId: 558839

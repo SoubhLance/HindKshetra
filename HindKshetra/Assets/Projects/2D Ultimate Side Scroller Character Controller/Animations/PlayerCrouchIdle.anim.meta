@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1353e05c8a23a0c41ab5983719cc7836
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerCrouchIdle.anim
+  uploadId: 598327

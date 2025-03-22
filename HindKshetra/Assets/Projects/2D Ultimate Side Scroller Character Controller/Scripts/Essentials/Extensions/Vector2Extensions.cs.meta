@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cb717061e4e89274b87c8353d2a12cee
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Extensions/Vector2Extensions.cs
+  uploadId: 598327

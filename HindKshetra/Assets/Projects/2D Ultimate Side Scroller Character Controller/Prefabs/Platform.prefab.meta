@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8aba10223e62afd4abf755c049b6e672
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Prefabs/Platform.prefab
+  uploadId: 598327

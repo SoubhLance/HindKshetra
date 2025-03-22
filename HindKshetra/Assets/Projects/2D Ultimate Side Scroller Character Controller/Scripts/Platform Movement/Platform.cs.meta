@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ec5eb3b2ae38d0e4c91720a8c04c5a5e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Platform
+    Movement/Platform.cs
+  uploadId: 598327

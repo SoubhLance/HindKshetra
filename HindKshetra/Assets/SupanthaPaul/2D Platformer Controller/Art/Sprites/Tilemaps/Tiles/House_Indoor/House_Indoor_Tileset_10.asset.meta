@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6d1174c1a09946d43b4e46178c68a42a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245475
+  packageName: 2D Platformer Controller (with animated character)
+  packageVersion: 1.0.0
+  assetPath: Assets/SupanthaPaul/2D Platformer Controller/Art/Sprites/Tilemaps/Tiles/House_Indoor/House_Indoor_Tileset_10.asset
+  uploadId: 558839

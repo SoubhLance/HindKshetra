@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55757b82553f62545b393f0983481e82
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Materials/Default-BuiltIn.mat
+  uploadId: 598327

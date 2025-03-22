@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 299c7426f1fbe2d4d864ee926dc0b242
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Animations/PlayerCrouchWalk.anim
+  uploadId: 598327

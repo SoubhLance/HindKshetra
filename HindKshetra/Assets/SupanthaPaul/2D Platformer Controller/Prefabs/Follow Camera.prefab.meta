@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 87bf8c1bb82c18141b66b97e913ccc1e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245475
+  packageName: 2D Platformer Controller (with animated character)
+  packageVersion: 1.0.0
+  assetPath: Assets/SupanthaPaul/2D Platformer Controller/Prefabs/Follow Camera.prefab
+  uploadId: 558839

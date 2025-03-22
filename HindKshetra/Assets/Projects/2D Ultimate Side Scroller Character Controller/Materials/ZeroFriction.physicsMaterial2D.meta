@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b5ba42aecac46e4fbfbdc43a0b4116f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 6200000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Materials/ZeroFriction.physicsMaterial2D
+  uploadId: 598327

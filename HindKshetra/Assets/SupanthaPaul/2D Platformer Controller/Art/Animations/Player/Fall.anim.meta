@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 858533db95da3a04abb0376f26a56f8b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245475
+  packageName: 2D Platformer Controller (with animated character)
+  packageVersion: 1.0.0
+  assetPath: Assets/SupanthaPaul/2D Platformer Controller/Art/Animations/Player/Fall.anim
+  uploadId: 558839

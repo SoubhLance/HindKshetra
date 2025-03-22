@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4b70476d66d52d94a89a1f9551c8703f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Extensions/AnimationCurveExtensions.cs
+  uploadId: 598327

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      happy-monkey-sitting-eating-banana-260nw-1436643614 1_0: 4400734434443552902
+      happy-monkey-sitting-eating-banana-260nw-1436643614 1_1: 6085444109206132525
+      happy-monkey-sitting-eating-banana-260nw-1436643614 1_2: 266931800545538150
+      happy-monkey-sitting-eating-banana-260nw-1436643614 1_3: 1092977636774343361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a43f2271421465c4a8b122f62a850bc0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253868
+  packageName: 2D Ultimate Side Scroller Character Controller
+  packageVersion: 1.0.0
+  assetPath: Assets/Projects/2D Ultimate Side Scroller Character Controller/Scripts/Essentials/Custom
+    Attributes/BoundedCurveAttribute.cs
+  uploadId: 598327
