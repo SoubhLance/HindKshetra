@@ -150,5 +150,16 @@ namespace YkinikY
         {
             canMove = true;
         }
+
+       public void Respawn()
+       {
+            Debug.Log("Respawning Player...");  
+            transform.position = new Vector3(-572.75f, -19.40f, 0f); // Set correct respawn position
+            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero; // Stop falling speed
+       }
+
+
+
+
     }
 }
