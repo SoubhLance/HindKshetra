@@ -39,7 +39,7 @@ In **Hind Kshetra**, you control a character who navigates various levels inspir
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/hind-kshetra.git
+   https://github.com/SoubhLance/HindKshetra.git
 2. Open the project in Unity:
    - Open Unity Hub and click Add.
    - Select the project folder to open the game in Unity.
@@ -70,7 +70,9 @@ In **Hind Kshetra**, you control a character who navigates various levels inspir
   
   For any questions or issues, feel free to contact:
    - Email: studysadhu2022@example.com
+   - Email: 20pratikroy@gmail.com
    - GitHub: SoubhLance
+   - GitHub: Peterisdev
 ```vbnet
    You can modify any part of this depending on your game’s specifics, like adding more features or updating the installation steps. Let me know if you need further changes!
 ```
